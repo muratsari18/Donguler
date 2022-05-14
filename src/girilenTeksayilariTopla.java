@@ -9,7 +9,7 @@ public class ekranagelentekSayilaribul {
         while (!isSayiEksi){
             System.out.print("Bir sayi giriniz :");
             sayi= input.nextInt();
-            System.out.println(sayi);
+            
 
             if (sayi<0)
                 isSayiEksi=true;
